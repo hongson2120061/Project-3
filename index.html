@@ -13,13 +13,14 @@
     <div class="bg-primary">
       <div class="container mx-auto py-[10px] relative">
         <div class="text-white text-center text-[14px]"><span class="font-[400] ">Đăng ký để được giảm giá 20%. </span><a class="font-[500] underline" href="#">Đăng Ký Ngay</a></div>
-        <div class="text-white absolute right-[2px] top-[10px] text-[14px]"><i class="fa-solid fa-xmark"></i></div>
+        <div class="text-white absolute right-[2px] top-[10px] text-[14px] sm:block  hidden"><i class="fa-solid fa-xmark"></i></div>
       </div>
     </div>
-    <div class="bg-white py-[24px]">
-      <div class="container mx-auto flex justify-between items-center">
-        <div class="text-[32px] font-[700] text-primary"> 28.SHOP</div>
-        <nav>
+    <div class="bg-white lg:py-[24px] py-[18px] ">
+      <div class="container mx-auto  sm:px-[0px] px-[16px] flex justify-between items-center">
+        <div class="text-[24px] text-primary mr-[16px] lg:hidden "><i class="fa-solid fa-bars"></i></div>
+        <div class="md:flex-none flex-1  lg:text-[32px] text-[26px] font-[700] text-primary mr-[28px]"> 28.SHOP</div>
+        <nav class="lg:block hidden">
           <ul class="flex justify-between">
             <li class="text-[16px] font-[400]  mx-[12px]"><a class="text-primary" href="#">Giới Thiệu</a></li>
             <li class="text-[16px] font-[400]  mx-[12px]"><a class="text-primary" href="#">Sản Phẩm</a></li>
@@ -27,11 +28,11 @@
             <li class="text-[16px] font-[400] text-primary mx-[12px]"><a class="text-primary" href="#">Liên Hệ</a></li>
           </ul>
         </nav>
-        <form class="bg-[#F0F0F0] w-[563px] h-[48px] rounded-[62px] relative" action="#">
+        <form class="bg-[#F0F0F0] flex-1 h-[48px] rounded-[62px] relative ml-[28px] mr-[40px] md:block hidden " action="#">
           <input class="bg-transparent outline-0 w-full h-full pl-[52px] pr-[10px]" type="text" placeholder="Tìm kiếm sản phẩm..."/>
           <button class="absolute top-[10px] left-[20px] text-[#00000066] text-[20px]"> <i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
-        <div><a class="text-[24px] text-primary"> <i class="fa-solid fa-cart-plus"></i></a><a class="text-[24px] text-primary ml-[14px]"> <i class="fa-regular fa-circle-user">                       </i></a></div>
+        <div><a class="text-[20px] text-primary mr-[12px] md:hidden"><i class="fa-solid fa-magnifying-glass"></i></a><a class="md:text-[24px] text-[20px]  text-primary  "> <i class="fa-solid fa-cart-plus"></i></a><a class="md:text-[24px] text-[20px]  text-primary md:ml-[14px] ml-[12px] "> <i class="fa-regular fa-circle-user">                       </i></a></div>
       </div>
     </div>
     <div class="bg-[#F2F0F1]">
